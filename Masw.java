@@ -29,6 +29,9 @@ public class Masw {
         System.out.print(String.format("%.4f",w1[j]));
         if ((w1[j] - 1000) < 0) {
               System.out.print("   ");
+               if ((w1[j] - 10) < 0) {
+                 System.out.print(" ");
+           }
         } else {
               System.out.print(" ");
         }
@@ -37,3 +40,4 @@ public class Masw {
     }
   }
 }
+
